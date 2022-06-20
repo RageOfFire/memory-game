@@ -3,21 +3,21 @@ import { useEffect, useState } from 'react';
 import SingleCard from './compoments/SingleCard';
 
 const cardImages = [
-  { "src": "/img/Kora.png", matched: false },
-  { "src": "/img/Valha.png", matched: false },
-  { "src": "/img/Theri.png", matched: false },
-  { "src": "/img/Waldron.png", matched: false },
-  { "src": "/img/Kudo.png", matched: false },
-  { "src": "/img/Gelena.png", matched: false },
-  { "src": "/img/Era.png", matched: false },
-  { "src": "/img/Aveline.png", matched: false },
-  { "src": "/img/Krurlas.png", matched: false },
-  { "src": "/img/Mundo.png", matched: false },
-  { "src": "/img/Maha.png", matched: false },
-  { "src": "/img/Tucka.png", matched: false },
-  { "src": "/img/Elicia.png", matched: false },
-  { "src": "/img/Bussiness.png", matched: false },
-  { "src": "/img/Hunter.png", matched: false },
+  { "src": process.env.PUBLIC_URL + "/img/Kora.png", matched: false },
+  { "src": process.env.PUBLIC_URL + "/img/Valha.png", matched: false },
+  { "src": process.env.PUBLIC_URL + "/img/Theri.png", matched: false },
+  { "src": process.env.PUBLIC_URL + "/img/Waldron.png", matched: false },
+  { "src": process.env.PUBLIC_URL + "/img/Kudo.png", matched: false },
+  { "src": process.env.PUBLIC_URL + "/img/Gelena.png", matched: false },
+  { "src": process.env.PUBLIC_URL + "/img/Era.png", matched: false },
+  { "src": process.env.PUBLIC_URL + "/img/Aveline.png", matched: false },
+  { "src": process.env.PUBLIC_URL + "/img/Krurlas.png", matched: false },
+  { "src": process.env.PUBLIC_URL + "/img/Mundo.png", matched: false },
+  { "src": process.env.PUBLIC_URL + "/img/Maha.png", matched: false },
+  { "src": process.env.PUBLIC_URL + "/img/Tucka.png", matched: false },
+  { "src": process.env.PUBLIC_URL + "/img/Elicia.png", matched: false },
+  { "src": process.env.PUBLIC_URL + "/img/Bussiness.png", matched: false },
+  { "src": process.env.PUBLIC_URL + "/img/Hunter.png", matched: false },
 ]
 
 function App() {

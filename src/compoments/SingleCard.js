@@ -14,7 +14,7 @@ export default function SingleCard({ card, handleChoice, flipped, disabled }) {
         <img 
         className="back" 
         onClick={handleClick} 
-        src="/img/cover.png" 
+        src={process.env.PUBLIC_URL + "/img/cover.png"} 
         alt="card back"
         />
       </div>
